@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0a;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  h1 { font-size: 1.6rem !important; }
+  h2 { font-size: 1rem !important; }
+  button { font-size: 0.85rem !important; }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .card { padding: 16px !important; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: #7b2ff7; border-radius: 3px; }
+
+/* Input focus */
+input:focus {
+  border-color: #7b2ff7 !important;
+  box-shadow: 0 0 0 2px #7b2ff720;
+}
+
+/* Button hover */
+button:hover { opacity: 0.9; transform: translateY(-1px); }
+button:active { transform: translateY(0); }
+
+/* Smooth transitions */
+* { transition: all 0.2s ease; }
+input { transition: border-color 0.2s ease !important; }
