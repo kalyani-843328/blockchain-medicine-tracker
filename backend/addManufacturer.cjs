@@ -1,7 +1,7 @@
 const { ethers } = require('ethers');
 require('dotenv').config();
 
-const CONTRACT_ADDRESS = "0x89479b4De01969e27599880A87782B860209F358";
+const CONTRACT_ADDRESS = "0xdE69D1b209B477917110510838F72cB1C1e7dFfA";
 const ABI = [
   "function addManufacturer(address _manufacturer) public"
 ];
