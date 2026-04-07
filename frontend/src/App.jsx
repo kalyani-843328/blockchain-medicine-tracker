@@ -17,7 +17,7 @@ import {
 import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const BACKEND_URL = 'http://localhost:3001';
+const BACKEND_URL = 'https://blockchain-medicine-tracker-production.up.railway.app';
 const ADMIN_EMAILS = [
   'singhkalyani6205@gmail.com',
   'kalyanisingh843328@gmail.com'
